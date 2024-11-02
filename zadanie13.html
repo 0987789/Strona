@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 13 - Tabele</title>
+
+    <style>
+        .main{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-size:large;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 400px;
+            height: 25px;
+        }
+        th{
+            background-color:#ccecfe;
+            width: 30px; height: 30px;;
+        }
+        td{
+            width: 50px; height: 40px;
+        }
+        #dgreen{
+            background-color: #c2d69b;
+        }
+        #green{
+            background-color: #d7e3bd;
+        }
+        #lgreen{
+            background-color: #eaf2dd;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="Tables">
+            <h1>Tabela 1 - Matryca</h1>
+            <table>
+                <tr>
+                    <th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th>
+                </tr>
+                <tr>
+                    <th>2</th><td>a</td><td id="lgreen">b</td><td id="lgreen">c</td><td>d</td><td>e</td>
+                </tr>
+                <tr>
+                    <th>3</th><td>f</td><td>g</td><td>h</td><td>i</td><td id="green">j</td>
+                </tr>
+                <tr>
+                    <th>4</th><td>k</td><td>l</td><td>m</td><td>n</td><td id="green">o</td>
+                </tr>
+                <tr>
+                    <th>5</th><td id="dgreen">p</td><td id="dgreen">q</td><td id="dgreen">r</td><td>s</td><td>t</td>
+                </tr>
+                <tr>
+                    <th>6</th><td id="dgreen">u</td><td id="dgreen">v</td><td id="dgreen">w</td><td>y</td><td>z</td>
+                </tr>
+            </table>
+            <h1>Tabela 2 - Scalanie</h1>
+            <table>
+                <tr>
+                    <th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th>
+                </tr>
+                <tr>
+                    <th>2</th><td>a</td><td id="lgreen" colspan="2">b, c</td><td>d</td><td>e</td>
+                </tr>
+                <tr>
+                    <th>3</th><td>f</td><td>g</td><td>h</td><td>i</td><td id="green"rowspan="2">j, o</td>
+                </tr>
+                <tr>
+                    <th>4</th><td>k</td><td>l</td><td>m</td><td>n</td>
+                </tr>
+                <tr>
+                    <th>5</th><td id="dgreen" colspan="3" rowspan="2">p, q, r, u, v, w</td><td>s</td><td>t</td>
+                </tr>
+                <tr>
+                    <th>6</th><td>y</td><td>z</td>
+                </tr>
+            </table>
+            <h1>Tabela 3 - Inicjały</h1>
+            <table>
+                <tr>
+                    <th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th>
+                </tr>
+                <tr>
+                    <th>2</th><td id="green" colspan="2" rowspan="2">a, b, f, g</td><td id="lgreen">c</td><td>d</td><td>e</td>
+                </tr>
+                <tr>
+                    <th>3</th><td>h</td><td>i</td><td id="green">j</td>
+                </tr>
+                <tr>
+                    <th>4</th><td>k</td><td>l</td><td>m</td><td>n</td><td id="green">o</td>
+                </tr>
+                <tr>
+                    <th>5</th><td id="dgreen">p</td><td id="dgreen">q</td><td id="dgreen">r</td><td>s</td><td>t</td>
+                </tr>
+                <tr>
+                    <th>6</th><td id="dgreen">u</td><td id="dgreen">v</td><td id="dgreen">w</td><td>y</td><td>z</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
