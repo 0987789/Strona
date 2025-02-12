@@ -2,56 +2,82 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Ford - Innowacje w Motoryzacji</title>
+    <title>Ford - Ikony Motoryzacji</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #ffffff;
-            color: #ef0d0d;
-            margin: 0;
+            max-width: 800px;
+            margin: 0 auto;
             padding: 20px;
         }
-
-        h1, h2 {
-            color: #ea4205;
+        h1 {
+            color: #000000;
+            text-align: center;
         }
-
+        figure {
+            text-align: center;
+            margin: 30px 0;
+        }
         img {
-            max-width: 100%;
-            height: auto;
+            width: 100%;
+            max-width: 600px;
+            border: 3px solid #000000;
+        }
+        figcaption {
+            font-style: italic;
+            margin-top: 10px;
+        }
+        .model-info {
+            background: #ffffff;
+            padding: 15px;
+            margin-bottom: 40px;
         }
 
-        .car-info1 {
-            background-color: #e8bbbb;
-            padding: 15px;
-            margin-bottom: 20px;
-        }
-        .car-info2 {
-            background-color: #bf9c9c;
-            padding: 15px;
-            margin-bottom: 20px;
-        }
     </style>
 </head>
 <body>
-    <h1>Ford: Marka z tradycjami</h1>
+    <h1>Ford - Amerykańska Legenda</h1>
     
-    <p>Ford Motor Company to amerykański producent samochodów założony w 1903 roku. Firma słynie z rewolucyjnych rozwiązań, takich jak pierwsza linia montażowa, oraz ikonicznych modeli, które na zawsze zmieniły rynek motoryzacyjny.</p>
+    <p>Ford Motor Company, założony w 1903 roku, to jeden z pionierów 
+        przemysłu motoryzacyjnego. Firma zasłynęła z wprowadzenia pierwszej 
+        linii montażowej, czyniąc samochody dostępnymi dla mas.</p>
 
-    <div class="car-info1">
+
+    <a id="auto1"></a>
+    <p><a href="#auto2">Zobacz Forda Ranger Wildtrak</a></p>
+    <figure>
+        <img src="Plikidodatkowe/Focus ST.jpg" alt="Ford Focus ST">
+        <figcaption>Ford Focus ST</figcaption>
+    </figure>
+    <div class="model-info">
         <h2>Focus ST</h2>
-        <img src="Plikidodatkowe/Focus ST.jpg" alt="Sportowy hatchback Ford" width="600">
-        <p><strong>Typ:</strong> Sportowy hatchback</p>
-        <p><strong>Silnik:</strong> 2.3 EcoBoost (280 KM)</p>
-        <p><strong>Przyspieszenie 0-100 km/h:</strong> 5.7 s</p>
+        <p>Ford Focus ST to sportowy hatchback, który łączy w sobie dynamiczny design
+            z doskonałymi osiągami. Dzięki silnikowi 2.3L EcoBoost o mocy 280 KM, 
+            samochód zapewnia ekscytujące wrażenia z jazdy. Przyspieszenie od 0 do 
+            100 km/h zajmuje zaledwie 5.7 sekundy, co czyni go idealnym wyborem dla 
+            miłośników szybkiej jazdy. Wyposażony w sportowe zawieszenie i 
+            zaawansowany system kontroli trakcji, Focus ST oferuje 
+            precyzyjne prowadzenie zarówno na zakrętach, jak i na prostych odcinkach.</p>
     </div>
 
-    <div class="car-info2">
+    <p><a href="#auto1">Zobacz Forda Focus ST</a></p>
+    <a id="auto2"></a>
+    <figure>
+        <img src="Plikidodatkowe/wildtrak.jpg" alt="Ford Ranger">
+        <figcaption>Ford Ranger Wildtrak</figcaption>
+    </figure>
+    <div class="model-info">
         <h2>Ranger Wildtrak</h2>
-        <img src="Plikidodatkowe/wildtrak.jpg" alt="Pickup Ford" width="600">
-        <p><strong>Typ:</strong> Pickup klasy średniej</p>
-        <p><strong>Silnik:</strong> 2.0 EcoBlue Bi-Turbo (213 KM)</p>
-        <p><strong>Napęd:</strong> 4x4 z blokadą dyferencjału</p>
+        <p>Ford Ranger Wildtrak to pickup, który doskonale sprawdza się 
+            zarówno w mieście, jak i w trudnym terenie. Dzięki silnikowi 
+            2.0L Bi-Turbo Diesel o mocy 213 KM i napędowi 4x4 z blokadą 
+            dyferencjału, Ranger Wildtrak jest gotowy na każde wyzwanie. 
+            Samochód wyposażony jest w system Terrain Management, który 
+            dostosowuje ustawienia pojazdu do warunków drogowych, oraz 
+            solidną ochronę podwozia, zapewniającą bezpieczeństwo podczas 
+            jazdy po nierównych powierzchniach. To idealny wybór dla osób 
+            poszukujących pojazdu łączącego moc, wytrzymałość i komfort.</p>
     </div>
+
 </body>
 </html>
