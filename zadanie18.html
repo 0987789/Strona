@@ -4,18 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zadanie 18 - CSS cz. 2</title>
+    <style>
+        .Roman{
+            list-style-type: upper-roman;
+            color: red;
+        }
+        .letters{
+            list-style-type: lower-alpha;
+            color: green;
+        }
+        .squares{
+            list-style-type: square;
+            color: orange;
+        }
+        .circles{
+            list-style-type: circle;
+            color: blue;
+        }
+    </style>
 </head>
 <body>
     <div style="font-family: Arial, Helvetica, sans-serif;">
     <ol>
         <li>Powiatowe Centrum Kształcenia Zawodowego i Ustawicznego</li>
-        <ol type="I" style="color: red;">
+        <ol class="Roman">
         <li>Technikum</li>
-        <ol type="a" reversed style="color: green;">
+        <ol class="letters" reversed>
         <li>Technikum Gastronomiczne</li>
         <li>Technikum Hotelarskie</li>
         <li>Technikum Informatyczne</li>
-        <ul type="square" style="color: orange;">
+        <ul class="squares">
         <li>Klasa 1 K</li>
         <li>Klasa 2 K</li>
         <li>Klasa 3 K</li>
@@ -24,7 +42,7 @@
         <li>Technikum Ekonomiczne</li>
         </ol>
         <li>Szkoła Branżowa
-        <ul type="circle" style="color: blue;">
+        <ul class="circles">
         <li>I stopnia</li>
         <li>II stopnia</li>
         </ul>
